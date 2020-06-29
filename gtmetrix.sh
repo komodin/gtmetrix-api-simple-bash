@@ -2,7 +2,7 @@
 
 if [[ -z "${1}" && -z "${URL_TO_TEST}" ]]
 then
-    echo -e "Uso: gtmetrix.sh [URL]"
+    echo -e "Uso: ${0##*/} [URL]"
     exit 1
 elif [[ ! -z "${1}" && -z "${URL_TO_TEST}" ]]
 then
